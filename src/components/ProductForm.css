@@ -1,0 +1,32 @@
+.product-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.product-form input,
+.product-form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.product-form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.product-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.product-form button[type="button"] {
+    background-color: #f44336;
+    color: white;
+}
